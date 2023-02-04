@@ -1,0 +1,18 @@
+/*
+Primera parte:
+
+Crear una función con tres parámetros que sean números que se suman entre sí.
+
+Llamar a la función en el main y darle valores.
+*/
+
+public static void main( String args[]){
+    // dara el valor de retorno en consola de 11
+    sum3nums(2,4,5);
+}
+
+public static void sum3nums(int num1, int num2, int num3){
+    //return num1 + num2 + num3;
+    sum = num1 + num2 +num3;
+    System.out.print(sum);
+}
