@@ -14,6 +14,8 @@ Mostrar el número de puertas que tiene el objeto.
 
 public static void main(String args[]){
     Coche miCoche = new Coche();
+    miCoche.incrementarPuertas();
+    micoche.mostrarNumeroPuertas();
 }
 
 public class Coche{
@@ -21,7 +23,7 @@ public class Coche{
 int numPuertas;
 
 public Coche(){
-    numPuertas=1;
+    numPuertas=0;
 }
 
 public static void incrementarPuertas(int cantPuertas){
